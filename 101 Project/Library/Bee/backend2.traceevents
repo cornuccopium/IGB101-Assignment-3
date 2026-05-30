@@ -1,0 +1,573 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1776604617766979, "dur":43956, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1776604617810940, "dur":111, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1776604617811124, "dur":473, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1776604617811811, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":0, "ts":1776604617813233, "dur":74, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1776604617814049, "dur":81, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/mscorlib-FeaturesChecked.txt_9kc9.info" }}
+,{ "pid":12345, "tid":0, "ts":1776604617811619, "dur":6624, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1776604617818246, "dur":236149, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1776604618054400, "dur":146, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1776604618054546, "dur":72, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1776604618054775, "dur":50, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1776604618054911, "dur":2486, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1776604617811582, "dur":6674, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1776604617820363, "dur":241, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"../../../../Program Files/Unity/Hub/Editor/6000.4.3f1/Editor/Data/Tools/BuildPipeline" }}
+,{ "pid":12345, "tid":1, "ts":1776604617820625, "dur":1105, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.4.3f1/Editor/Data/il2cpp/build/deploy" }}
+,{ "pid":12345, "tid":1, "ts":1776604617821730, "dur":3984, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.4.3f1/Editor/Data/il2cpp/libil2cpp" }}
+,{ "pid":12345, "tid":1, "ts":1776604617825715, "dur":130, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.4.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport" }}
+,{ "pid":12345, "tid":1, "ts":1776604617825846, "dur":1011, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.4.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono" }}
+,{ "pid":12345, "tid":1, "ts":1776604617826858, "dur":54, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.4.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/Data/Resources" }}
+,{ "pid":12345, "tid":1, "ts":1776604617826912, "dur":164, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.4.3f1/Editor/Data/Tools/BuildPipeline" }}
+,{ "pid":12345, "tid":1, "ts":1776604617827076, "dur":86, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Library/PlayerDataCache/Win642/Data" }}
+,{ "pid":12345, "tid":1, "ts":1776604617818262, "dur":8975, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1776604617827286, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteResponseFile Library/Bee/artifacts/rsp/918587520799215666.rsp" }}
+,{ "pid":12345, "tid":1, "ts":1776604617827350, "dur":207, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1776604617828289, "dur":132, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\betaphenyl\\Desktop\\101 Project\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1776604617828424, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\betaphenyl\\Desktop\\101 Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InternalAPIEngineBridge.004.dll" }}
+,{ "pid":12345, "tid":1, "ts":1776604617828488, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\betaphenyl\\Desktop\\101 Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":1, "ts":1776604617828540, "dur":275, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\betaphenyl\\Desktop\\101 Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1776604617828819, "dur":115, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\betaphenyl\\Desktop\\101 Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1776604617828935, "dur":404, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\betaphenyl\\Desktop\\101 Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1776604617829345, "dur":93, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\betaphenyl\\Desktop\\101 Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.DocCodeExamples.dll" }}
+,{ "pid":12345, "tid":1, "ts":1776604617829444, "dur":215, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\betaphenyl\\Desktop\\101 Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1776604617829660, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\betaphenyl\\Desktop\\101 Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1776604617829720, "dur":164, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\betaphenyl\\Desktop\\101 Project\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1776604617830326, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\betaphenyl\\Desktop\\101 Project\\Library\\Bee\\artifacts\\UnityLinkerInputs\\TypesInScenes.xml" }}
+,{ "pid":12345, "tid":1, "ts":1776604617830384, "dur":89, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\betaphenyl\\Desktop\\101 Project\\Library\\Bee\\artifacts\\UnityLinkerInputs\\EditorToUnityLinkerData.json" }}
+,{ "pid":12345, "tid":1, "ts":1776604617827562, "dur":3150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker C:/Users/betaphenyl/Desktop/101 Project/Library/Bee/artifacts/unitylinker_dwek.traceevents" }}
+,{ "pid":12345, "tid":1, "ts":1776604617830713, "dur":4854, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1776604617842060, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.TLSModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1776604617842284, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/System.IO.Compression-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1776604617842420, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.VFXModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1776604617842701, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/System.Data.DataSetExtensions-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1776604617843119, "dur":792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1776604617843976, "dur":4980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1776604617849031, "dur":6661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.UnityConsentModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1776604617855747, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1776604617855978, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/Unity.VisualScripting.DocCodeExamples-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1776604617856190, "dur":4009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1776604617860255, "dur":12236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1776604617872495, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/System.Data-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1776604617873238, "dur":682, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.AnimationModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1776604617873921, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1776604617874286, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1776604617874356, "dur":11599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1776604617885958, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.UnityWebRequestAudioModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1776604617886039, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1776604617886485, "dur":274, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1776604617895878, "dur":1421, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1776604617886763, "dur":10551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1776604617905235, "dur":50, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1776604617897368, "dur":7932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1776604617905343, "dur":8468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1776604617913813, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.TextRenderingModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1776604617913896, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1776604617914050, "dur":5933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1776604617919989, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/System.ComponentModel.Composition-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":1, "ts":1776604617920161, "dur":5280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1776604617925444, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1776604617946450, "dur":392, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1776604617932537, "dur":14407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1776604617947038, "dur":107345, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1776604617811848, "dur":6427, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1776604617818280, "dur":2066, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1776604617820347, "dur":1408, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1776604617821756, "dur":5592, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1776604617827350, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1776604617827467, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1776604617827548, "dur":66, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/Assembly-CSharp-FeaturesChecked.txt_w20p.info" }}
+,{ "pid":12345, "tid":2, "ts":1776604617827616, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1776604617827752, "dur":154, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UIModule-FeaturesChecked.txt_rlwj.info" }}
+,{ "pid":12345, "tid":2, "ts":1776604617827909, "dur":208, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1776604617828120, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1776604617828255, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1776604617849290, "dur":4827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1776604617854182, "dur":5326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1776604617859514, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1776604617859616, "dur":19605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1776604617879239, "dur":11686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1776604617890952, "dur":12685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1776604617903656, "dur":10375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1776604617924624, "dur":152, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1776604617914049, "dur":10746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1776604617924798, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Plugins/x86_64/libonigwrap.dll" }}
+,{ "pid":12345, "tid":2, "ts":1776604617924900, "dur":59, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1776604617928942, "dur":4228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Plugins/x86_64/libonigwrap.dll" }}
+,{ "pid":12345, "tid":2, "ts":1776604617933233, "dur":121122, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1776604617811598, "dur":6668, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1776604617818270, "dur":1979, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1776604617820250, "dur":1081, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1776604617821332, "dur":5922, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1776604617827270, "dur":284, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1776604617827565, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1776604617827697, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1776604617827833, "dur":174, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1776604617828011, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1776604617828142, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1776604617828241, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1776604617858923, "dur":1423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1776604617860436, "dur":25268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1776604617885708, "dur":846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.PhysicsBackendPhysXModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":3, "ts":1776604617886678, "dur":12251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1776604617898948, "dur":13676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1776604617912628, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/System.Transactions-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":3, "ts":1776604617912934, "dur":13550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1776604617926502, "dur":26664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1776604617953255, "dur":101158, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1776604617811896, "dur":6388, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1776604617818289, "dur":2107, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1776604617820397, "dur":1087, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1776604617821485, "dur":5854, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1776604617827341, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1776604617827418, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1776604617827498, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1776604617827637, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1776604617827764, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1776604617827837, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1776604617827921, "dur":157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1776604617828083, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1776604617829503, "dur":1225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1776604617830731, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1776604617831952, "dur":1091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1776604617833113, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1776604617834001, "dur":980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1776604617835019, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1776604617838390, "dur":860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1776604617839290, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1776604617839448, "dur":979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1776604617840460, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1776604617841108, "dur":1617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1776604617842753, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.NVIDIAModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1776604617842895, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.UnityAnalyticsCommonModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1776604617843038, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/System.IO.Compression.FileSystem-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1776604617843260, "dur":1211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1776604617850553, "dur":60, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1776604617844527, "dur":6100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1776604617850632, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.WindModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1776604617850829, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.GridModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1776604617850904, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1776604617851041, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.CoreModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1776604617851207, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.InputForUIModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1776604617851351, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.UIElementsModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1776604617851500, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.SubsystemsModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1776604617851696, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.AndroidJNIModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":4, "ts":1776604617851791, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1776604617851956, "dur":6647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1776604617881113, "dur":1856, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1776604617858626, "dur":24424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1776604617883080, "dur":15347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/Unity.VisualScripting.DocCodeExamples.dll" }}
+,{ "pid":12345, "tid":4, "ts":1776604617898459, "dur":8999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1776604617907483, "dur":7954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1776604617915469, "dur":17224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1776604617932696, "dur":121713, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1776604617811938, "dur":6355, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1776604617818298, "dur":1364, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1776604617819663, "dur":1325, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1776604617820988, "dur":1150, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1776604617822139, "dur":5252, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1776604617827394, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1776604617827489, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1776604617827607, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1776604617827711, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1776604617827861, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1776604617827924, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1776604617828053, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1776604617828211, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1776604617849653, "dur":7353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1776604617857160, "dur":8799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1776604617881309, "dur":2929, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1776604617866023, "dur":18230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1776604617884266, "dur":332, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1776604617884698, "dur":14650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1776604617911453, "dur":133, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1776604617899468, "dur":12171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.RenderAs2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1776604617911661, "dur":8406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1776604617920115, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1776604617920549, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1776604617920739, "dur":12440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1776604617933182, "dur":121176, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1776604617811987, "dur":6320, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1776604617818315, "dur":1996, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1776604617820312, "dur":1106, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1776604617821418, "dur":5847, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1776604617827285, "dur":220, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1776604617827515, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1776604617827605, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1776604617827672, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1776604617827763, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1776604617827831, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1776604617827895, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1776604617827954, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1776604617828060, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1776604617828157, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1776604617834421, "dur":5618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1776604617840081, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1776604617840191, "dur":1484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1776604617841716, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/dstoragecore.dll" }}
+,{ "pid":12345, "tid":6, "ts":1776604617841798, "dur":4514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/dstoragecore.dll" }}
+,{ "pid":12345, "tid":6, "ts":1776604617846342, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/mscorlib-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":6, "ts":1776604617846491, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.InputLegacyModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":6, "ts":1776604617846651, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.MultiplayerModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":6, "ts":1776604617846736, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1776604617846936, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.SpriteShapeModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":6, "ts":1776604617847128, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.ContentLoadModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":6, "ts":1776604617847377, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.MarshallingModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":6, "ts":1776604617847680, "dur":2245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1776604617849978, "dur":6282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1776604617856275, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.AdaptivePerformanceModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":6, "ts":1776604617856494, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1776604617856749, "dur":7931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1776604617864692, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/Unity.Scripting.dll" }}
+,{ "pid":12345, "tid":6, "ts":1776604617864793, "dur":10638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/Unity.Scripting.dll" }}
+,{ "pid":12345, "tid":6, "ts":1776604617875497, "dur":11034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1776604617886560, "dur":9976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1776604617896547, "dur":144, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1776604617896697, "dur":7317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1776604617904030, "dur":7147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1776604617911201, "dur":7196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1776604617918408, "dur":115, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1776604617918528, "dur":4316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1776604617922894, "dur":4811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1776604617930716, "dur":4754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1776604617935544, "dur":118858, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1776604617812012, "dur":6309, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1776604617818343, "dur":2489, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1776604617820832, "dur":955, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1776604617821787, "dur":5506, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1776604617827308, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1776604617827418, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1776604617827499, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1776604617827570, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1776604617827633, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1776604617827699, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1776604617827803, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1776604617827960, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1776604617828062, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1776604617828230, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1776604617848392, "dur":5347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1776604617858259, "dur":58, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1776604617853822, "dur":4506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1776604617858383, "dur":8405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1776604617866792, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1776604617866859, "dur":11760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1776604617887964, "dur":66, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1776604617878643, "dur":9405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1776604617888097, "dur":11876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1776604617909024, "dur":753, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1776604617899988, "dur":9799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1776604617909805, "dur":6738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1776604617916560, "dur":6505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1776604617923107, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1776604617923573, "dur":201, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1776604617923868, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/D3D12/D3D12Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1776604617924783, "dur":6439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/D3D12/D3D12Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1776604617931289, "dur":3519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1776604617934917, "dur":119433, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1776604617812050, "dur":6297, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1776604617818351, "dur":1460, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1776604617819812, "dur":865, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1776604617820677, "dur":1005, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1776604617821683, "dur":5575, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1776604617827287, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1776604617827434, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1776604617827553, "dur":66, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/mscorlib-FeaturesChecked.txt_9kc9.info" }}
+,{ "pid":12345, "tid":8, "ts":1776604617827621, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1776604617827768, "dur":77, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UIElementsModule-FeaturesChecked.txt_28gs.info" }}
+,{ "pid":12345, "tid":8, "ts":1776604617827847, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1776604617827926, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1776604617828081, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1776604617828228, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1776604617868660, "dur":2577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1776604617871289, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.DSPGraphModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":8, "ts":1776604617871481, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/Unity.VisualScripting.Flow-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":8, "ts":1776604617871720, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.InsightsModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":8, "ts":1776604617871942, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/Unity.VisualScripting.Core-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":8, "ts":1776604617872765, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.AudioModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":8, "ts":1776604617872900, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.InputModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":8, "ts":1776604617873027, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.ClothModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":8, "ts":1776604617873168, "dur":287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.PerformanceReportingModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":8, "ts":1776604617873457, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1776604617873626, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.HotReloadModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":8, "ts":1776604617873788, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.StreamingModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":8, "ts":1776604617874024, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1776604617874223, "dur":10873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1776604617896172, "dur":90, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1776604617885116, "dur":11159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1776604617896294, "dur":7163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1776604617903476, "dur":6010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1776604617909535, "dur":6659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1776604617916222, "dur":6485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1776604617922726, "dur":5038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.VectorGraphicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1776604617927779, "dur":4298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1776604617932115, "dur":122268, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1776604617812084, "dur":6278, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1776604617818367, "dur":1624, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1776604617819992, "dur":684, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1776604617820677, "dur":1055, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1776604617821733, "dur":5544, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1776604617827280, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1776604617827364, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1776604617827577, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1776604617827667, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1776604617827728, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1776604617827789, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1776604617827845, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1776604617827952, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1776604617828067, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1776604617828184, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":9, "ts":1776604617847497, "dur":3555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":9, "ts":1776604617851081, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.PropertiesModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":9, "ts":1776604617851136, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1776604617851190, "dur":70, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.PropertiesModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":9, "ts":1776604617851472, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.GameCenterModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":9, "ts":1776604617851613, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.RenderAs2DModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":9, "ts":1776604617851763, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.SpriteMaskModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":9, "ts":1776604617851821, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1776604617852011, "dur":5849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1776604617857964, "dur":8530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":9, "ts":1776604617866571, "dur":14307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1776604617880882, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.UnityAnalyticsModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":9, "ts":1776604617881161, "dur":1703, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1776604617883061, "dur":8229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.AdaptivePerformanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1776604617891381, "dur":10524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1776604617901953, "dur":10645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1776604617912621, "dur":5780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1776604617918403, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":9, "ts":1776604617918702, "dur":7605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":9, "ts":1776604617926343, "dur":10763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":9, "ts":1776604617937189, "dur":117193, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1776604617812116, "dur":6283, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1776604617818406, "dur":1866, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1776604617820272, "dur":1419, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1776604617821691, "dur":5590, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1776604617827301, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1776604617827429, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1776604617827494, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1776604617827569, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1776604617827676, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1776604617827886, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1776604617828006, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1776604617828075, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1776604617828207, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1776604617858129, "dur":191, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1776604617858405, "dur":1451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1776604617859940, "dur":11779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1776604617871724, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.VehiclesModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":10, "ts":1776604617871951, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.DirectorModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":10, "ts":1776604617872060, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1776604617872692, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.UmbraModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":10, "ts":1776604617872760, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1776604617872923, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.VideoModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":10, "ts":1776604617873088, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.IMGUIModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":10, "ts":1776604617873265, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.ScriptingModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":10, "ts":1776604617873513, "dur":344, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1776604617873959, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.UnityCurlModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":10, "ts":1776604617874132, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1776604617874226, "dur":10889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1776604617885125, "dur":152, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1776604617885282, "dur":7456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1776604617892755, "dur":9384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1776604617902180, "dur":10182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1776604617912385, "dur":6005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1776604617918449, "dur":5771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1776604617924223, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1776604617924383, "dur":2136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1776604617926583, "dur":5930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1776604617932546, "dur":121844, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1776604617812165, "dur":6249, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1776604617818420, "dur":1861, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1776604617820282, "dur":1192, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1776604617821475, "dur":5859, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1776604617827336, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1776604617827409, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1776604617827469, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1776604617827565, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1776604617827685, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1776604617827741, "dur":79, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/UnityEngine.SubstanceModule-FeaturesChecked.txt_rpif.info" }}
+,{ "pid":12345, "tid":11, "ts":1776604617827823, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1776604617827928, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1776604617827988, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1776604617828114, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1776604617828205, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1776604617849437, "dur":6620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1776604617856099, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/System-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":11, "ts":1776604617856391, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/Unity.TextMeshPro-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":11, "ts":1776604617856768, "dur":10222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":11, "ts":1776604617866997, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1776604617881765, "dur":1505, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1776604617867139, "dur":16143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1776604617883807, "dur":9349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.AMDModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1776604617893175, "dur":12569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.InsightsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1776604617913012, "dur":65, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1776604617905762, "dur":7325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1776604617913134, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1776604617913253, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.HierarchyCoreModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":11, "ts":1776604617913406, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1776604617913532, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.ScreenCaptureModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":11, "ts":1776604617913858, "dur":349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.JSONSerializeModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":11, "ts":1776604617914385, "dur":61, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1776604617914450, "dur":6981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1776604617921450, "dur":5901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1776604617927371, "dur":4861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":11, "ts":1776604617932267, "dur":122085, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1776604617812211, "dur":6227, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1776604617818442, "dur":1652, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1776604617820095, "dur":996, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1776604617821092, "dur":1171, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1776604617822264, "dur":4987, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1776604617827268, "dur":149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1776604617827427, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1776604617827568, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1776604617827715, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1776604617827805, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1776604617827868, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1776604617827934, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1776604617828045, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1776604617828107, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1776604617828189, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1776604617849634, "dur":5899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1776604617855632, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/System.ServiceModel.Internals-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":12, "ts":1776604617855934, "dur":4257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1776604617860251, "dur":13176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":12, "ts":1776604617873431, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.Physics2DModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":12, "ts":1776604617873629, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.SubstanceModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":12, "ts":1776604617873814, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.HierarchyModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":12, "ts":1776604617873971, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/Unity.VisualScripting.State-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":12, "ts":1776604617882632, "dur":343, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1776604617874542, "dur":8451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/Unity.InternalAPIEngineBridge.004.dll" }}
+,{ "pid":12345, "tid":12, "ts":1776604617882999, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.PhysicsBackendPhysXModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1776604617883088, "dur":6885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.PhysicsBackendPhysXModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1776604617889998, "dur":9827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.ScriptingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1776604617908877, "dur":257, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1776604617899842, "dur":9312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1776604617909185, "dur":4771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1776604617913959, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.AccessibilityModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":12, "ts":1776604617914139, "dur":6212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1776604617920565, "dur":7385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1776604617927961, "dur":3985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":12, "ts":1776604617931992, "dur":122397, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1776604617812225, "dur":6238, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1776604617818467, "dur":1924, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1776604617820392, "dur":1097, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1776604617821490, "dur":5771, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1776604617827268, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1776604617827395, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1776604617827518, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1776604617827592, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1776604617827665, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1776604617827722, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1776604617827797, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1776604617827870, "dur":160, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1776604617828034, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1776604617828182, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":13, "ts":1776604617841491, "dur":55, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1776604617840067, "dur":1495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":13, "ts":1776604617841602, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":13, "ts":1776604617842001, "dur":1893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":13, "ts":1776604617843979, "dur":5818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":13, "ts":1776604617849805, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1776604617849891, "dur":6841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1776604617856790, "dur":8637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":13, "ts":1776604617865486, "dur":10471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":13, "ts":1776604617876029, "dur":10120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1776604617886197, "dur":9714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.HierarchyModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1776604617895935, "dur":6732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1776604617902685, "dur":6797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.IdentifiersModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1776604617909845, "dur":6052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1776604617915974, "dur":6808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1776604617922799, "dur":5001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1776604617927838, "dur":10546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1776604617938579, "dur":115829, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1776604617812247, "dur":6276, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1776604617818529, "dur":1588, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1776604617820118, "dur":1086, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1776604617821205, "dur":6040, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1776604617827256, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":14, "ts":1776604617828931, "dur":532, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":14, "ts":1776604617829468, "dur":79, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win642\\Data\\boot.config" }}
+,{ "pid":12345, "tid":14, "ts":1776604617829735, "dur":203, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\betaphenyl\\Desktop\\101 Project\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":14, "ts":1776604617830326, "dur":103, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Player94b116eb-inputdata.json" }}
+,{ "pid":12345, "tid":14, "ts":1776604617829466, "dur":1017, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":14, "ts":1776604617830921, "dur":90, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1776604617831382, "dur":206816, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":14, "ts":1776604618045892, "dur":6993, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":14, "ts":1776604618045861, "dur":7026, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/boot.config" }}
+,{ "pid":12345, "tid":14, "ts":1776604618052937, "dur":1356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/boot.config" }}
+,{ "pid":12345, "tid":15, "ts":1776604617812274, "dur":6256, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1776604617818536, "dur":1009, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1776604617819546, "dur":1081, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1776604617820627, "dur":1237, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1776604617821864, "dur":5428, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1776604617827294, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1776604617827388, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1776604617827472, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1776604617827543, "dur":100, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/UnityEngine.XRModule-FeaturesChecked.txt_pvv9.info" }}
+,{ "pid":12345, "tid":15, "ts":1776604617827645, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1776604617827713, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1776604617827803, "dur":57, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/UnityEngine.SharedInternalsModule-FeaturesChecked.txt_0vls.info" }}
+,{ "pid":12345, "tid":15, "ts":1776604617827862, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1776604617827936, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1776604617828091, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1776604617828147, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":15, "ts":1776604617833966, "dur":42552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":15, "ts":1776604617876605, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":15, "ts":1776604617876658, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1776604617876783, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.XRModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":15, "ts":1776604617876992, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.AIModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":15, "ts":1776604617877230, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.VRModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":15, "ts":1776604617877420, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/System.Configuration-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":15, "ts":1776604617877594, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.GIModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":15, "ts":1776604617877762, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.ARModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":15, "ts":1776604617877949, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.UIModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":15, "ts":1776604617878308, "dur":13318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1776604617891642, "dur":9567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":15, "ts":1776604617901233, "dur":9518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1776604617916480, "dur":241, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1776604617910767, "dur":5964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1776604617916755, "dur":6716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1776604617923749, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project.exe" }}
+,{ "pid":12345, "tid":15, "ts":1776604617923903, "dur":3826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project.exe" }}
+,{ "pid":12345, "tid":15, "ts":1776604617939011, "dur":111, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1776604617927776, "dur":11360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/level0.resS" }}
+,{ "pid":12345, "tid":15, "ts":1776604617939248, "dur":115148, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1776604617812302, "dur":6247, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1776604617818550, "dur":1338, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1776604617819889, "dur":1238, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1776604617821127, "dur":6121, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1776604617827296, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1776604617827422, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1776604617827513, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1776604617827575, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1776604617827676, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1776604617827728, "dur":102, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/UnityEngine.SubsystemsModule-FeaturesChecked.txt_nywe.info" }}
+,{ "pid":12345, "tid":16, "ts":1776604617827832, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1776604617827920, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1776604617828009, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1776604617828165, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":16, "ts":1776604617841511, "dur":69, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1776604617839881, "dur":1710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":16, "ts":1776604617841655, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":16, "ts":1776604617842086, "dur":15077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":16, "ts":1776604617857265, "dur":7655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":16, "ts":1776604617864952, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":16, "ts":1776604617865122, "dur":14300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":16, "ts":1776604617879468, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1776604617879582, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.UnityWebRequestModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":16, "ts":1776604617880064, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.VirtualTexturingModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":16, "ts":1776604617880456, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.VectorGraphicsModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":16, "ts":1776604617880598, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.CrashReportingModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":16, "ts":1776604617880769, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.TerrainPhysicsModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":16, "ts":1776604617880911, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ExtractUsedFeatures Library/Bee/artifacts/WinPlayerBuildProgram/Features/UnityEngine.ParticleSystemModule-FeaturesChecked.txt" }}
+,{ "pid":12345, "tid":16, "ts":1776604617881110, "dur":11481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":16, "ts":1776604617892612, "dur":9585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":16, "ts":1776604617902209, "dur":8293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1776604617910506, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1776604617910888, "dur":5927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1776604617916857, "dur":6431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1776604617923687, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/dstorage.dll" }}
+,{ "pid":12345, "tid":16, "ts":1776604617923782, "dur":3470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/dstorage.dll" }}
+,{ "pid":12345, "tid":16, "ts":1776604617927403, "dur":7804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/betaphenyl/Downloads/IGB101 Assignment 2 Aleksandra Harrak/IGB101 Build/My project_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":16, "ts":1776604617935274, "dur":119125, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1776604618060890, "dur":1433, "ph":"X", "name": "ProfilerWriteOutput" }
+,
