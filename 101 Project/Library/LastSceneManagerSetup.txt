@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Demo Dungeon Scene/Dungeon Scene.unity
+- path: Assets/Demo Dungeon Scene/Aleksandra Scene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

@@ -1,0 +1,1048 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.4/staging' branch; Version is '6000.4.3f1 (39d1a88d4dd1) revision 3789224'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-yoshi" at "2026-05-31T06:12:22.7354739Z"
+OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 16087 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-05-31T06:12:22Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.4.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/yoshi/Desktop/IGB101-Assignment-3/101 Project
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+62183
+-licensingIpc
+LicenseClient-yoshi
+-force-d3d12
+-job-worker-count
+9
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/yoshi/Desktop/IGB101-Assignment-3/101 Project
+C:/Users/yoshi/Desktop/IGB101-Assignment-3/101 Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [8372]  Target information:
+
+Player connection [8372]  * "[IP] 192.168.4.146 [Port] 0 [Flags] 2 [Guid] 2365106708 [EditorId] 2365106708 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [8372] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8372] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 9
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Active build profile path: `Assets/Settings/Build Profiles/Windows.asset`
+Got setting from build profile YAML, name `m_BuildTarget`, value `19`
+Got setting from build profile YAML, name `m_Subtarget`, value `2`
+Refreshing native plugins compatible for Editor in 3.03 ms, found 4 plugins.
+Initialize engine version: 6000.4.3f1 (39d1a88d4dd1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.4.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/yoshi/Desktop/IGB101-Assignment-3/101 Project/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28a0)
+    Vendor:          NVIDIA
+    VRAM:            7956 MB
+    App VRAM Budget: 7188 MB
+    Driver:          32.0.15.9649
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56544
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001789 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-yoshi"
+[Licensing::IpcConnector] LicenseClient-yoshi channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-yoshi-6000.4.3" at "2026-05-31T06:12:24.8721541Z"
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.471 seconds
+Domain Reload Profiling: 961ms
+	BeginReloadAssembly (163ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (200ms)
+		LoadAssemblies (159ms)
+		AnalyzeDomain (190ms)
+			TypeCache.Refresh (188ms)
+				TypeCache.ScanAssembly (177ms)
+	FinalizeReload (472ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (54ms)
+			BeforeProcessingInitializeOnLoad (100ms)
+			ProcessInitializeOnLoadAttributes (125ms)
+			ProcessInitializeOnLoadMethodAttributes (112ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Got setting from build profile YAML, name `m_Development`, value `0`
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              82be8cd7953d45379e7436d7770ee3e8
+  Correlation Id:          ea561c740ded8890452532f7815ac74d
+  External correlation Id: 1825108796343297535
+  Machine Id:              Rg48kbwQ9otWm8teZYlKeKLKRg8=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-yoshi-6000.4.3" (connect: 0.00s, validation: 0.00s, handshake: 2.14s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-yoshi-6000.4.3-notifications" at "2026-05-31T06:12:27.0210701Z"
+[Licensing::Module] Licensing Background thread has ended after 4.29s
+[Licensing::Module] Licensing is initialized (took 1.86s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 16767730336545-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Performance.Profile-Analyzer.EditorTests.dll at Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Settings.Tests.dll at Library/ScriptAssemblies/Unity.Settings.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TestTools.CodeCoverage.Editor.Compatibility.dll at Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.Compatibility.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.503 seconds
+Domain Reload Profiling: 3180ms
+	BeginReloadAssembly (2165ms)
+		DisableScriptedObjects (112ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (398ms)
+		LoadAssemblies (323ms)
+		AnalyzeDomain (169ms)
+			TypeCache.Refresh (130ms)
+				TypeCache.ScanAssembly (119ms)
+			BuildScriptInfoCaches (33ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (504ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (100ms)
+			ProcessInitializeOnLoadAttributes (214ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (5ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3738 unused Assets / (1.5 MB). Loaded Objects now: 4356.
+Memory consumption went from 95.9 MB to 94.4 MB.
+Total: 6.549300 ms (FindLiveObjects: 0.647600 ms CreateObjectMapping: 0.294300 ms MarkObjects: 4.495500 ms  DeleteObjects: 1.108800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 77212.496578 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Wood/materials/Corner-Wood-Model-03.mat
+  importAddress: Guid(024ec65dc7d742e4d87f866c034ff810) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Wood/materials/Corner-Wood-Model-03.mat using Guid(024ec65dc7d742e4d87f866c034ff810) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c53fd550c574ff426cc1e09b52df9ed2') in 0.1057743 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4eb9890f3ae01e0d8e458447ed8b499b DependenciesID=e201fcd1e53a8d1eed8ad3e2d3455818 StaticDependenciesID=57a837c420765a578f610740c8e2799a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Prefabs/Stone/Walls/Wall-Stone (8).prefab
+  importAddress: Guid(85436259a02f98b46a04c868d4cfd2af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Prefabs/Stone/Walls/Wall-Stone (8).prefab using Guid(85436259a02f98b46a04c868d4cfd2af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '765fffbf56d01a5e19cdd0aadfb718f7') in 0.0597901 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1722b7b12508330dc824e4ab3609497c DependenciesID=7fe42ecf24a7e21c54b9766a6e1c73e9 StaticDependenciesID=0d0f3c90c37052aaf7143e3a58338853 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Yash/Materials and Textures/Rock Wall
+  importAddress: Guid(4b2cc94f908c8f1468da51e5a9bc60cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Yash/Materials and Textures/Rock Wall using Guid(4b2cc94f908c8f1468da51e5a9bc60cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '84ce5dc83076ccad493f54f6f92ae627') in 0.0198055 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8589e4870957d454f1f2f2a23ae2cd03 DependenciesID=2da9ea08d55bd15518a16612adb76f6a StaticDependenciesID=c154a87c907087aceb24680546999d67 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Floor Tiles Texture/Floor Tiles Material.mat
+  importAddress: Guid(3062c4e966d393c40af586adbfe0e290) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Floor Tiles Texture/Floor Tiles Material.mat using Guid(3062c4e966d393c40af586adbfe0e290) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b2cb3ff507e083c4db3769692fc7994a') in 0.0509451 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bce1dae151f5f40556556eabdd62cf2a DependenciesID=1e752e1a747222ab6d1a1ae4173ea486 StaticDependenciesID=2316b0868b3e667b4273c7bb7a95f79f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Fantasy Skybox Sunrise/Sunrise Material.mat
+  importAddress: Guid(023808db2bfa00d44929aa2176d29c76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Fantasy Skybox Sunrise/Sunrise Material.mat using Guid(023808db2bfa00d44929aa2176d29c76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cf39fd72d25066ecd4bb9502af2b4b73') in 0.0296949 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4cf028bd1280d734c52fb47258e5f487 DependenciesID=34819173a513b9a7c9797d2f907cd85d StaticDependenciesID=dc04217c477f0eeee5116f99d40cef9a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Stone/materials/Door-Stone-Model-01.mat
+  importAddress: Guid(204b0ea5595393c4d950b931f84f64a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Stone/materials/Door-Stone-Model-01.mat using Guid(204b0ea5595393c4d950b931f84f64a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'fac85111e88c53adbeec2ce50d6e7ce7') in 0.0138551 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c8e8b8854657eb76a104bd4515cf3fb8 DependenciesID=93323ecd514c2c93501cc9b4a6bf2aa7 StaticDependenciesID=85b5e4f416fbd4b8c3a5d6b996d27ed9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Yash/Animations
+  importAddress: Guid(2d88e04ff67bb324ab6ecbfa73a2fc02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Yash/Animations using Guid(2d88e04ff67bb324ab6ecbfa73a2fc02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8fcba122badb6e35b9c3f00764de003f') in 0.0110025 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ec279f68605f3bb5e963b833222eb903 DependenciesID=7fcf913966152298de4cb9a1b1f48b3b StaticDependenciesID=f5f4f5f1f9f051c33d556a1a047ba5af 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Yash/Audio
+  importAddress: Guid(51ca32d7b0b4a4d47a83593e660c096e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Yash/Audio using Guid(51ca32d7b0b4a4d47a83593e660c096e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '750c14b6c5ed2479f3a4efd254c437e9') in 0.0109538 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=daa309b78b5c943448fb9b957a56d394 DependenciesID=1ac2e16d59932bcd1c0812a74259abf2 StaticDependenciesID=ddef15d03fa3beba3fb64c8527349657 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Stone/materials/Wall-Stone-Model-02.png
+  importAddress: Guid(e97b3d3aca7226f4ca436e792a53f4b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Stone/materials/Wall-Stone-Model-02.png using Guid(e97b3d3aca7226f4ca436e792a53f4b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '70511acc4128f52cbc6ad800465bd177') in 0.0384961 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=15f8f07f75dc5efa77604bc79bc3dfd3 DependenciesID=f0ad80512312c0ff1accfaf5a43faff2 StaticDependenciesID=232487e6856826c4e362246768c205a1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Exhibits/Coat of Arms/Coat of Arms Material.mat
+  importAddress: Guid(2b1b4be0c707b2a43bcc41c74f631b44) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Exhibits/Coat of Arms/Coat of Arms Material.mat using Guid(2b1b4be0c707b2a43bcc41c74f631b44) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6992c3613b91591c4d724a588ecba3c8') in 0.020783 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=22ef769324435aa0659f31df38dceee9 DependenciesID=a268bf3a56afecb937e6308e13a6fa75 StaticDependenciesID=ff3613841324b5f819714d9ddcd9a66d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Wood/materials/Door-Wood-Model-01.png
+  importAddress: Guid(4060538865d89f244846f234cb47d4c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Wood/materials/Door-Wood-Model-01.png using Guid(4060538865d89f244846f234cb47d4c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0da1db78c3eac988f4d143afc3f47e30') in 0.0168949 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b59f7a2a04fff5c30065286b8db83280 DependenciesID=cd97a6ba67df87dd3821ac732ce33883 StaticDependenciesID=c121413dd3c914e2be5bfd2b12b10215 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Stone/materials/Wall-Stone-Model-09.mat
+  importAddress: Guid(f7a8c1022c77fff4790e0d707ccd91cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Stone/materials/Wall-Stone-Model-09.mat using Guid(f7a8c1022c77fff4790e0d707ccd91cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '669c4d25a55d57ed8680e094baa07ccc') in 0.0161498 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=aedc551be2a61f4c5a785fc1a55f647a DependenciesID=1c56e82132bb1a6da679c325ffaa7ac8 StaticDependenciesID=215d556400f734d02aaf09f82b1eb5c1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Stone/materials/Wall-Stone-Model-08.png
+  importAddress: Guid(6c463b2c91c1e2c47b18f0c6196fa837) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Stone/materials/Wall-Stone-Model-08.png using Guid(6c463b2c91c1e2c47b18f0c6196fa837) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '792c6b095906b1067e0ad9950eab45f7') in 0.0143996 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=99ecb6a0e1c5dc3c45569ca687d0ff31 DependenciesID=06a2c63bef566afabf6e363c833cf054 StaticDependenciesID=4eb99f9456cf0128256b1cc7435f01b1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Animations
+  importAddress: Guid(69674c2f56746a9409d34c22d2673cbe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations using Guid(69674c2f56746a9409d34c22d2673cbe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '84ca04cb42b84423a38b564c49a52c58') in 0.0115724 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4397e4f80ff7e07cae3891b3e73b793e DependenciesID=44f5717000fe3500cdc5639dd70fa03e StaticDependenciesID=a95edf55148c511686aef8cde222c251 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Stone/Wall-Stone-Model-08.fbx
+  importAddress: Guid(ade97d4dba32bff4b8ea966c3a421874) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Stone/Wall-Stone-Model-08.fbx using Guid(ade97d4dba32bff4b8ea966c3a421874) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1d55e9cf144e6842c6f53ecd5b5301b1') in 0.0311993 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1da9dfac216ca724e49e0a4b7628a3dc DependenciesID=bc7913a4d61d39d4b0157a2a56e25082 StaticDependenciesID=4dca16b60c49af8bc3ecab3666ba58b5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Audio/Erang - Godless Behavior.mp3
+  importAddress: Guid(c429e516b6476fe42905cb726ad31f59) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Audio/Erang - Godless Behavior.mp3 using Guid(c429e516b6476fe42905cb726ad31f59) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ec5519b7bd07cd8007f530a194216c0a') in 0.0226049 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=389176c8653edaf9738d1a52ae0f1e32 DependenciesID=3550d6a5120838005ad414aac7d15728 StaticDependenciesID=a413766aafa2e5ee26e0dbd7cf738685 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Exhibits/Stone Normal Map Exercise/DisplacementMap Stone.png
+  importAddress: Guid(39c09e52726f6e4418e42299e0b86f5b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Exhibits/Stone Normal Map Exercise/DisplacementMap Stone.png using Guid(39c09e52726f6e4418e42299e0b86f5b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2c79fb6936c8cb69875915e6a50d5e00') in 0.0183007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3aa1295e9a0305617e57b29d7f892e16 DependenciesID=3c81db2a6970e2060d27883ec48362e0 StaticDependenciesID=cbf877f7f3666174611cbc6e8ba5ce68 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Stone/Wall-Stone-Model-04.fbx
+  importAddress: Guid(f631627b7ea6bd94b84ea500530c87bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Stone/Wall-Stone-Model-04.fbx using Guid(f631627b7ea6bd94b84ea500530c87bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8a43d1a657b95d2d39943c8e4f6ce9b1') in 0.0200694 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3336c636956eea36390afe9d56a334a0 DependenciesID=31ae31863c9f5889af5edf45f2af976b StaticDependenciesID=d9d3fd823afa9a4181dcf3c26195330d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Prefabs/Stone/Walls/Wall-Stone (10).prefab
+  importAddress: Guid(011b6cd529bfaf543ad52857ad90de05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Prefabs/Stone/Walls/Wall-Stone (10).prefab using Guid(011b6cd529bfaf543ad52857ad90de05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c6e8a95cadd283331d9f7689ee0866ac') in 0.0223406 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6655fea315c32a4e096ecd491e92b30a DependenciesID=39a4ae95d0467b43bcaab763a1541b2a StaticDependenciesID=c2d6749155871371d378799fba25fa0d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Wood/materials/Floor-Wood-Model-02.png
+  importAddress: Guid(5ca38be5f0c1e85438fd46c989a9e4fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Wood/materials/Floor-Wood-Model-02.png using Guid(5ca38be5f0c1e85438fd46c989a9e4fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '194a8df5bb823a98a8b780c0a5d654e9') in 0.0137944 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=25af18bb2cba8b896add46c9c6730fa4 DependenciesID=fc11a84a3345df99b7ded0631fd33958 StaticDependenciesID=e4478a80b8b2dd2d0e92719bd1fecc2d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Floor Tiles Texture/Tiles106_1K-JPG.mtlx
+  importAddress: Guid(cdacfc3c0d261d24288fdd5e2a05b6f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Floor Tiles Texture/Tiles106_1K-JPG.mtlx using Guid(cdacfc3c0d261d24288fdd5e2a05b6f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0cada4e5701b4de6a4ff2ac3e305e8e4') in 0.0106788 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dd8317d79f5632b633cf9071196b5b42 DependenciesID=9a960ed46fa24d89d9af7bacce0f7238 StaticDependenciesID=b1d752b74acea6137110b98c5d4a2a8f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Stone/materials/Corner-Stone-Model-03.png
+  importAddress: Guid(b5b67259540d6bf4b9e825e43b59b410) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Stone/materials/Corner-Stone-Model-03.png using Guid(b5b67259540d6bf4b9e825e43b59b410) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3142919edc9245b3aa4825e317cc0949') in 0.0142344 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8f83d6c1ce1fd3571f0b50e50d0567c0 DependenciesID=ed90443197992982ca3a911df4bdb8c2 StaticDependenciesID=5ce0d6f052081e3f6839ad2f5187336d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Wood/Corner-Wood-Model-03.fbx
+  importAddress: Guid(4258197bb6e4954499326e662d928b01) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Wood/Corner-Wood-Model-03.fbx using Guid(4258197bb6e4954499326e662d928b01) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a96455b0b43c4db66ba7bb5e8e5a7ffc') in 0.0168841 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bfbba3c8bd556d2257bde9e6f9d45bb1 DependenciesID=643784fff6f6f59bb24e37a1b1a7dade StaticDependenciesID=cedfdb3ace8c172bc896918d55075173 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Yash/Materials and Textures/Coat of Arms
+  importAddress: Guid(a8b1cf923b269014d909b7446a02ec2c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Yash/Materials and Textures/Coat of Arms using Guid(a8b1cf923b269014d909b7446a02ec2c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b5099e5e75beb1ce50005bb5eeaf9292') in 0.0095034 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6a0480afd26e049dee275ab31ec5fbbd DependenciesID=7208880fe7e16a8518eaf900a7e1523b StaticDependenciesID=bf1e9b09b8edf5c0d86bade0c6a747e5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Stone/materials/Wall-Stone-Model-04.png
+  importAddress: Guid(69b4732a9481c1c4ba46b1d458fa3a35) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Stone/materials/Wall-Stone-Model-04.png using Guid(69b4732a9481c1c4ba46b1d458fa3a35) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'df10949c09b59adcbb17c1a887e2d74d') in 0.0138636 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cf9e274ff1402e1568dd6957ecd504c4 DependenciesID=793e993b42b8cc5f4ff31b0fa5a79e3c StaticDependenciesID=46fd18afe6ba048e383b7436bdf9db69 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Yash/Materials and Textures/Fantasy Skybox FREE
+  importAddress: Guid(b8fd5de988ab5ab4f86a5590d1cf932d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Yash/Materials and Textures/Fantasy Skybox FREE using Guid(b8fd5de988ab5ab4f86a5590d1cf932d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'fc6fc151f22b7da33dced25b2ad989db') in 0.0114664 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=75bef0846b3188a415f5f005832a4d2e DependenciesID=96817144593bf98d2aa724b14e651635 StaticDependenciesID=6ba86d272cb0705f0f083cdab07d1cf6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Demo Dungeon Scene/Dungeon Scene.unity
+  importAddress: Guid(5d16060afb9b6a64e86da0304e3a615d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Dungeon Scene.unity using Guid(5d16060afb9b6a64e86da0304e3a615d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '296ba18e1fb4fe2a8a57c2c9f774fe4e') in 0.0123596 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ad0a9ddbfb935ba4b4326e19946f1952 DependenciesID=ac42b7096cf295426cb7734c94939131 StaticDependenciesID=42ea228bb56f71be6eaea404e1cd1d9f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Animations/Floating Glowing Sphere.controller
+  importAddress: Guid(bb614a06275608141b95149d4e492a45) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/Floating Glowing Sphere.controller using Guid(bb614a06275608141b95149d4e492a45) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ab44773b5084a594111128249745fcad') in 0.0228363 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a33de6d87988d0d858abdc82801975f7 DependenciesID=a2033b53ff8194b61abc50e19edd2654 StaticDependenciesID=3257e60fe52ab155084d4b1a10643b95 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Prefabs/Stone/Doors/Door-Stone (2).prefab
+  importAddress: Guid(3b752154f36e7c04bb01888b707b959e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Prefabs/Stone/Doors/Door-Stone (2).prefab using Guid(3b752154f36e7c04bb01888b707b959e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '650a25b1425531bce5ea8255897c6259') in 0.023297 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bbb81750777558bc4054f9860797f519 DependenciesID=66bbcb33545ab0f84350f714d3a11db6 StaticDependenciesID=88c7ee6965489fb9ce542aab5860fe62 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Stone/Door-Stone-Model-01.fbx
+  importAddress: Guid(95376650c5dd3504690211d997e35f69) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Stone/Door-Stone-Model-01.fbx using Guid(95376650c5dd3504690211d997e35f69) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ff8046b8e6403e790f172bfc365d6a3e') in 0.0209591 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b61bfae5ab0b2bf8db1c8cb4cae2e080 DependenciesID=49b8dd885289273021083e8eab744222 StaticDependenciesID=e7d9b5033fa054d3b70d929518bd7b29 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Stone/materials
+  importAddress: Guid(c3b2584f839cc8e48a34494a162a2556) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Stone/materials using Guid(c3b2584f839cc8e48a34494a162a2556) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '648192f7be464f2d5c3bca23b4a4cfde') in 0.009516 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2e2cd309005234cc2fec9c9b69b14b02 DependenciesID=ccacfad6b1afa25d551168d902e3c2a2 StaticDependenciesID=7a2673afe259500eb35e4e042d941add 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Wood/materials/Door-Wood-Model-03.png
+  importAddress: Guid(16db49039a16de24896fd3f0a23ea5be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Wood/materials/Door-Wood-Model-03.png using Guid(16db49039a16de24896fd3f0a23ea5be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f2097bd342e2c4f546f1c47a095344be') in 0.0116589 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=08af787672d038830006e50dd95b6dcd DependenciesID=7c21bbe75394095a64ca1154853e31fc StaticDependenciesID=6dcc1208036d970a97accd8d0ab635e8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Demo Dungeon Scene/Asset Lineup Scene.unity
+  importAddress: Guid(2a8115a97e64de04cb3bdf0460173e3d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Asset Lineup Scene.unity using Guid(2a8115a97e64de04cb3bdf0460173e3d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b48d20f3511630cf32653d1c7a83e5ce') in 0.01415 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ded733c685781b157aeca2142104f574 DependenciesID=81c091aead527bae50b7f70f2df3a0b2 StaticDependenciesID=55dae5fc7ade70a410b81d5b411baca1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Wood
+  importAddress: Guid(56f6d154b1380054b88468b9ba8e3a1e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Wood using Guid(56f6d154b1380054b88468b9ba8e3a1e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4e4e1d63db26eb8c0cf63a8c669387b9') in 0.0116426 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0ab022b5d5ae2f24ef56fe0d14495498 DependenciesID=6e73aa809c4f83ae1776cb9d76d2a082 StaticDependenciesID=26c84b64a9ea2e4fd7c13282414ddf20 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Prefabs/Stone/Floors/Floor-Stone (3).prefab
+  importAddress: Guid(2e3557303b0b5774aba8c8e4f245d3a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Prefabs/Stone/Floors/Floor-Stone (3).prefab using Guid(2e3557303b0b5774aba8c8e4f245d3a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9d6e41e894828fab7d4b59af8288e8fe') in 0.0232797 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=432b31104fc79f86f37b98acbc10a82b DependenciesID=ed58207668e943a786eb9f45582a3525 StaticDependenciesID=7a28552215eea4756720f35ac06ea591 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Stone/materials/Wall-Stone-Model-07.mat
+  importAddress: Guid(4428709e021064748a4ade09197d9609) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Stone/materials/Wall-Stone-Model-07.mat using Guid(4428709e021064748a4ade09197d9609) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a4cd0202dbd716db8eafa86785b8f903') in 0.0138605 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=66bc5c1b1195974a8fd3139146a970a1 DependenciesID=5f84821272df82e41fada48184afd4c9 StaticDependenciesID=6487aaadb7d4cb119443a28389aa5d51 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Stone/Wall-Stone-Model-03.fbx
+  importAddress: Guid(94fa54c1e3460ec4daa350800b4d8f53) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Stone/Wall-Stone-Model-03.fbx using Guid(94fa54c1e3460ec4daa350800b4d8f53) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'fc2012da5d5cea9d4e32ba72503bcc13') in 0.0158924 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=feb2c9d7760eeee679ccd8010fbec2fa DependenciesID=c0f57b590bc4eda0172de1c80ff421e2 StaticDependenciesID=aa1806add6136f6d851bfd7109805dd6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Exhibits/Weird Guy Textures/Body.mat
+  importAddress: Guid(72bbb831408e32c4d8b79bbc91c2d81a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Exhibits/Weird Guy Textures/Body.mat using Guid(72bbb831408e32c4d8b79bbc91c2d81a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7df8b7418dc472bbd69a516c65f4f67b') in 0.0123845 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=00ad6461da4bd6eb6e6e3a7ba878ee9c DependenciesID=3a0188b5fe0b7f92056aed9cf08062ec StaticDependenciesID=de06b86f1138201e1b691003b85e937e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Prefabs
+  importAddress: Guid(e4213956da99cf44c9dbc90e1cf857ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Prefabs using Guid(e4213956da99cf44c9dbc90e1cf857ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b50729d5f259bc0c3ea0c46d81960fe3') in 0.0103976 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b8c0a8ccdc4f13eba6d201307a2371de DependenciesID=8f9dd0ef414052ca10f98e4b3dda2a60 StaticDependenciesID=b4dca1f613c5d31aeb39278d75ee42ac 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Prefabs/Stone/Doors
+  importAddress: Guid(a05221b2fd181c54b879864a4503c60d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Prefabs/Stone/Doors using Guid(a05221b2fd181c54b879864a4503c60d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '03c74714ac9f34c0b6ae8e2069fd7877') in 0.0104028 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8459776a3181d93d0c149557f48acd94 DependenciesID=0297a68409f3e087eba6e8310c0e28ed StaticDependenciesID=193a8a99ba4afb9680d924f86fb901c4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Wood/Wall-Wood-Model-04.fbx
+  importAddress: Guid(4530d001dac31db4e9b983bd62e2658a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Wood/Wall-Wood-Model-04.fbx using Guid(4530d001dac31db4e9b983bd62e2658a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '43ce47f00938367fbc417413ec566204') in 0.0173524 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c20daa77b9edafd21cf38da0f030c3c1 DependenciesID=d9223fa842fa5d47473a3171b4145621 StaticDependenciesID=924f69f2a6d0c985a2289faee08a38b7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Wood/materials/Wall-Wood-Model-01.mat
+  importAddress: Guid(b30dcab12d8cb64438630df58d94510d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Wood/materials/Wall-Wood-Model-01.mat using Guid(b30dcab12d8cb64438630df58d94510d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c602dbd1e12e8f031ee575e91f644041') in 0.0143612 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d8de883ab2ed6cf5891c9fdaaf9d6e66 DependenciesID=940e2d861cf81f72655249959046291b StaticDependenciesID=67dad2840e2ccc70848c70337d499aee 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Wood/Door-Wood-Model-01.fbx
+  importAddress: Guid(d1fea7d47c8f5144387ec2b290a8d67c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Wood/Door-Wood-Model-01.fbx using Guid(d1fea7d47c8f5144387ec2b290a8d67c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9d7dc2cb59d28a9ac7857a48a550ec86') in 0.0158233 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b1b626ebf9f78b45f27d2cd3389fe613 DependenciesID=4ffe62d91381162007126b7eb41d7660 StaticDependenciesID=2188e54b4abaafd7aeffac86e42d67d4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Stone/materials/Wall-Stone-Model-06.png
+  importAddress: Guid(1e623ef0f1495bd4188f830da812c633) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Stone/materials/Wall-Stone-Model-06.png using Guid(1e623ef0f1495bd4188f830da812c633) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c6538e9f33b11cddeef70a6cfaec50d2') in 0.0165697 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b349cc78b4b4be4c8e5c23902fa6d37b DependenciesID=c24c5574d68b5490f2c771e77730f0fe StaticDependenciesID=5979a525e60ed6ede00d649e24e003c4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Prefabs/Wood/Walls/Wall-Wood (2).prefab
+  importAddress: Guid(1813c94b1a0c7b94da308ac04531370d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Prefabs/Wood/Walls/Wall-Wood (2).prefab using Guid(1813c94b1a0c7b94da308ac04531370d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '80633d27c53b7a21d615b9dd9a90dfa2') in 0.0233701 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a256b87e7a40cfd97e7cf8a353ebd4ad DependenciesID=8c6921e6b4384606cb2f50bd0e268681 StaticDependenciesID=bfb8433332169dfe595ed044cd8075c3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Stone/materials/Floor-Stone-Model-02.mat
+  importAddress: Guid(5ef5271cc1e75574995ddec7d0186fc6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Stone/materials/Floor-Stone-Model-02.mat using Guid(5ef5271cc1e75574995ddec7d0186fc6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4d3e5c8e2a37e9ad0d952fae29cbcdce') in 0.0128211 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1982941169e2f060f2e0e716d06082b3 DependenciesID=21fe22fb4cde8b4a569926d84e229461 StaticDependenciesID=534f83f0911903e39c58bc0ac0d4e7a8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Stone/materials/Corner-Stone-Model-01.png
+  importAddress: Guid(853428089451e744cb46c7d275ad0639) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Stone/materials/Corner-Stone-Model-01.png using Guid(853428089451e744cb46c7d275ad0639) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '506a6f82d4685d5df219dbc4b436c93a') in 0.0144463 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=619017c943869d4bb7d208db51dd9ea5 DependenciesID=a7a4f3e9e8df1041a1d76690d1ada1cc StaticDependenciesID=5a13e2632ebf1d718c7e7b38070312e5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Animations/Middle Spotilight 2.controller
+  importAddress: Guid(f2e1f5d444f52f6479c9b9c0e841d6fd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/Middle Spotilight 2.controller using Guid(f2e1f5d444f52f6479c9b9c0e841d6fd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '62d8daa7a5b60dd227847b742ab80a83') in 0.011122 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9daea37f98f164fcf4fe0cd92cb1c21a DependenciesID=39bdd77ea7b4053f651b6a93b7e6d27f StaticDependenciesID=c281b942df7b359e6cb9da63602a9f69 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Stone/Wall-Stone-Model-02.fbx
+  importAddress: Guid(bbc007129f2c6534c9e70e722e90499f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Stone/Wall-Stone-Model-02.fbx using Guid(bbc007129f2c6534c9e70e722e90499f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3a9e1c1077e9f45d16c84029aee17676') in 0.0171651 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=15d013c05f4b218b3e24c0750fdfe102 DependenciesID=5e65a49a91efee69f3d8fc065b5af176 StaticDependenciesID=a9a56432fb7e6532be223ab46746031e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.387786 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Stone/materials/Wall-Stone-Model-03.mat
+  importAddress: Guid(2161f28328ad88948a3b77d2aecd79bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Stone/materials/Wall-Stone-Model-03.mat using Guid(2161f28328ad88948a3b77d2aecd79bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8c979f9d2e2957b0c6c0c9a28daa5105') in 0.0142873 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=63043fe4b5db4eedb6d3fa7e0d1671e5 DependenciesID=274d68c17e3b7cb6ac543d3c14274716 StaticDependenciesID=80037bc264a07d8652b807d562f71399 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Prefabs/Stone/Walls/Wall-Stone (7).prefab
+  importAddress: Guid(c3e4ce92e820a2341963e7998fdbf651) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Prefabs/Stone/Walls/Wall-Stone (7).prefab using Guid(c3e4ce92e820a2341963e7998fdbf651) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f8918297bf9bdce5797ec79bd0558a90') in 0.0236367 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d11a1331d1b0fcdf969f3b2bf6c2fac9 DependenciesID=32c3579b89c7d9eb8faac3f9ca9ab2ea StaticDependenciesID=b2e8cc2ab2492026c8d97a69364d309e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Stone/Wall-Stone-Model-01.fbx
+  importAddress: Guid(c8a232c4315f1124082197104feffe9f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Stone/Wall-Stone-Model-01.fbx using Guid(c8a232c4315f1124082197104feffe9f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7e3b355e2e5c4dac21ffd6d7df9edbce') in 0.0147104 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3605a9e37f0709535ddd5fe8b9f73b05 DependenciesID=d0e6644c20d29b4ca2718416da2e4cf4 StaticDependenciesID=dc0e425e3dbded2094a9fe4e85a87739 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Stone/materials/Floor-Stone-Model-02.png
+  importAddress: Guid(2aa5b41a596bc424e852c02af81b563b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Stone/materials/Floor-Stone-Model-02.png using Guid(2aa5b41a596bc424e852c02af81b563b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9c102d783884219ff738f9a26718019e') in 0.0160417 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=57e3d1d5ac816d3f024ccd12b7747d71 DependenciesID=b66dbe95c8a2b05f6d500182cb519e4c StaticDependenciesID=27b30b7d5652282a1d5f79df9c88064d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Wood/materials/Wall-Wood-Model-08.png
+  importAddress: Guid(b8e381cbde763c447b317ef7d4355712) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Wood/materials/Wall-Wood-Model-08.png using Guid(b8e381cbde763c447b317ef7d4355712) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4481306c88be9a4b34ff81852a1b6fdc') in 0.0105176 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7ced3c061405f2ed7cd77c9e495ce618 DependenciesID=73d508e74cc621ead3c0832a183b1b5b StaticDependenciesID=45950bbfb6aecd4a13245eab524b5565 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Wood/materials/Wall-Wood-Model-12.png
+  importAddress: Guid(bb57af78a7925424f8995714df58e71e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Wood/materials/Wall-Wood-Model-12.png using Guid(bb57af78a7925424f8995714df58e71e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f9dd9cec27b5bb89420adcd6f8a9a965') in 0.0125292 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=753b3f039145398eb387597ec5c381ab DependenciesID=aee7cd88720ee4218ea5a543cbd8e9d2 StaticDependenciesID=022f2f1ebe886a529db96aa8e771bf89 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Wood/materials/Corner-Wood-Model-04.mat
+  importAddress: Guid(da7f4587877a06f4bb0021fd666bdccc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Wood/materials/Corner-Wood-Model-04.mat using Guid(da7f4587877a06f4bb0021fd666bdccc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '45938f1f4aa7a0fa441c620d50cb5341') in 0.0133323 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bf764eb6df7f18db927484defbe48713 DependenciesID=995c9dd841085e82f887b23a13eeee1c StaticDependenciesID=3382b40c4f8970281f3bdc6767b233a4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Stone/Wall-Stone-Model-07.fbx
+  importAddress: Guid(145a3c9f161ea3e4cb5a0e3a7b878e9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Stone/Wall-Stone-Model-07.fbx using Guid(145a3c9f161ea3e4cb5a0e3a7b878e9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f0123a8a50f8065428437453bccc9656') in 0.017072 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b9bd82bf3f885e0b6803de005601ef0a DependenciesID=007d4a6dea512c31e65c63fef61f586b StaticDependenciesID=47ca8caf76e1e330b0877c4e63a355a1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Prefabs/Stone/Walls
+  importAddress: Guid(88efc33540c0ac84f9de8537e82275a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Prefabs/Stone/Walls using Guid(88efc33540c0ac84f9de8537e82275a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '71dbfa7b0e405cec95a3c536ade5c5af') in 0.0123702 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=966315fae617ca65338c4159bb2f4f2a DependenciesID=c6dc0ecf414092e989cf5ff5b90aa096 StaticDependenciesID=08cfd2d78ef04241348b74e76dde07b2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Stone/materials/Wall-Stone-Model-05.png
+  importAddress: Guid(b118ab368c4a4b846910231f83304da9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Stone/materials/Wall-Stone-Model-05.png using Guid(b118ab368c4a4b846910231f83304da9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2d7df89c02896863ddcbdcf68bff2206') in 0.0145922 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=64d5e3a0509244c58604058998a7c5d7 DependenciesID=cde277f98887b966d5cc5fcb4c4297d7 StaticDependenciesID=42872dd27dd7e7c5fb6986e576099c8d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Exhibits/Cat Video.mp4
+  importAddress: Guid(8004b7c9f68100e438e344248e232039) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Exhibits/Cat Video.mp4 using Guid(8004b7c9f68100e438e344248e232039) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ce8675b689af7de65f7544eb7313f363') in 0.0136767 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=af3aa770f9834b70ceeb75c88b6762d7 DependenciesID=45d54b83d6c3eafb88c08e55860896de StaticDependenciesID=64e3932344b50120730cea961986ce18 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Stone/materials/Corner-Stone-Model-02.png
+  importAddress: Guid(a524bafa3eec40c47aea196bf7b64767) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Stone/materials/Corner-Stone-Model-02.png using Guid(a524bafa3eec40c47aea196bf7b64767) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4e6441a01369ac1d27c1ba93b543e6e4') in 0.0139429 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e673bcd5360b410c3c42a390e80b1788 DependenciesID=2d728469e0dcd42d26366b36c8c97bfb StaticDependenciesID=a799e81d7b3579d3a32b7ec2730dd471 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Stone/materials/Corner-Stone-Model-02.mat
+  importAddress: Guid(ac40411b9455773439ac8c5675392892) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Stone/materials/Corner-Stone-Model-02.mat using Guid(ac40411b9455773439ac8c5675392892) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7739a37a1d63a372d447923d48cb4040') in 0.0130874 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c65ff63ac925e7405d24cb1a86dac33c DependenciesID=daf9d92b3802334c4e172dcf1349f2e5 StaticDependenciesID=7c646f64e456fbb3d50e1e758fd5ff3a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Stone/materials/Floor-Stone-Model-04.png
+  importAddress: Guid(19fa909af79051c45bc53491eb301c34) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Stone/materials/Floor-Stone-Model-04.png using Guid(19fa909af79051c45bc53491eb301c34) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e7603ac8e8fe26b43b808b56da52e4b0') in 0.0127793 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ce1dca85d9008c3892faf1f13cdfeebb DependenciesID=d16e1a041d32e8a2c437a508b496a3d2 StaticDependenciesID=7bb5ab41374f2a3ceb5e626c1b0928a5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Wood/materials/Wall-Wood-Model-03.mat
+  importAddress: Guid(f38051be6a8ad8f4fb93e30ac60ba245) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Wood/materials/Wall-Wood-Model-03.mat using Guid(f38051be6a8ad8f4fb93e30ac60ba245) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '897005c1fadaddd83f725c0016d63de8') in 0.0120726 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3ff03df8042c1d9306de1a716356466f DependenciesID=e5c3a3a22a4eb80cb9026d6c72550cf7 StaticDependenciesID=d5479e250a195596571be69335229650 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scripts/CameraMovement.cs
+  importAddress: Guid(f6b26d0cd1b7cf341b0945b63b027e6f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/CameraMovement.cs using Guid(f6b26d0cd1b7cf341b0945b63b027e6f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7a97132172cc5af3931e95b2e0b6b155') in 0.0123953 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=321347b7a612bf29ed2fd8a49bc6998f DependenciesID=aa6f179c9c32e0c533ed76c4f96cf9d9 StaticDependenciesID=7c8a06d761cdcd5c7da3f7776f6143fb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Wood/materials/Door-Wood-Model-03.mat
+  importAddress: Guid(1ffecb36c5f325d4289432ab17cc12ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Wood/materials/Door-Wood-Model-03.mat using Guid(1ffecb36c5f325d4289432ab17cc12ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '33f5b6a051d5e8812fb16f1ce230eca5') in 0.0127824 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a0cb2ca91b0419f05d0907cfab34af6a DependenciesID=c0cf4c607c974eace5afb7fcedcffd9d StaticDependenciesID=8aa66699d47f06e3e6fb4c5c11681096 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Prefabs/Stone/Walls/Wall-Stone (9).prefab
+  importAddress: Guid(ab81f7053ec51854a82c0f1f16fd6847) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Prefabs/Stone/Walls/Wall-Stone (9).prefab using Guid(ab81f7053ec51854a82c0f1f16fd6847) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6c3d4d5d661484ca6ed55ad8d355a3fa') in 0.0218112 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9171539979152405a3c460236e76313b DependenciesID=3b4545e0fa8ae7d5fef23a791585f80f StaticDependenciesID=ff617614090eafe6be8e39bf25b7a271 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Demo Dungeon Scene/Asset Lineup SceneSettings.lighting
+  importAddress: Guid(6760dd4fe1c00f545ae6c8235e50d4e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Asset Lineup SceneSettings.lighting using Guid(6760dd4fe1c00f545ae6c8235e50d4e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4dc06c4e7ab503c482f30c2a55b8a233') in 0.0185342 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1e2aa39e31600fe04baa661ef8b00db6 DependenciesID=59d9aa7b213d4418a305d625bebf7f7e StaticDependenciesID=1a14afd2518884d400095b5143665730 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Exhibits/Floating Sphere Material.mat
+  importAddress: Guid(2fb9de77b9b135e44913c20102adb8cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Exhibits/Floating Sphere Material.mat using Guid(2fb9de77b9b135e44913c20102adb8cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'fe8d7167cc80cc0e534b80999b7616a8') in 0.012144 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2ca07b2dc087bb45be3f7467b9489a7b DependenciesID=6f6a80efb95ddd2464233141de6bdd63 StaticDependenciesID=ea4a33f25854f51b94f5e2848305e3ca 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Stone/Wall-Stone-Model-05.fbx
+  importAddress: Guid(ddb76fa9f72a2cf47859d4f8e4aa7694) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Stone/Wall-Stone-Model-05.fbx using Guid(ddb76fa9f72a2cf47859d4f8e4aa7694) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cebb17f22f1522e3a3cba4b2c0e46c0f') in 0.0177381 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=250bf91337647dc789d19c3b12a9c802 DependenciesID=ea177f7c7f7a86ecee84e880a30304d7 StaticDependenciesID=f2e3626a06999cda68016c804b2ace70 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Exhibits/Weird Guy Textures/White Eye.mat
+  importAddress: Guid(e556d0443843df44997186d8a0af4426) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Exhibits/Weird Guy Textures/White Eye.mat using Guid(e556d0443843df44997186d8a0af4426) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '85ba05fb57ff26e2daf6cae957991b8e') in 0.0114069 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f41d6e11f544f4d2f4efe669c27de50c DependenciesID=4a796244623e015ae01aac8ff90c7366 StaticDependenciesID=6bc52649971b91d3074e953524eb11d8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.172578 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Stone/Door-Stone-Model-03.fbx
+  importAddress: Guid(7ba2e918d3548e74d85b1d3d3d6ac1a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Stone/Door-Stone-Model-03.fbx using Guid(7ba2e918d3548e74d85b1d3d3d6ac1a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9f0590f7b825b3bf73d24e5f086e616e') in 0.0182959 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b6f3a4d96d1f31f7b39aa3752d24f776 DependenciesID=1703a69b95d2aa5b7f1d4c5dafa8bc57 StaticDependenciesID=412711a9d4dc1f71f4819df63f9b23bd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Wood/materials/Corner-Wood-Model-01.png
+  importAddress: Guid(9deb3ae92156f7b4995f914f483a06e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Wood/materials/Corner-Wood-Model-01.png using Guid(9deb3ae92156f7b4995f914f483a06e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3942bec31365be32318ff7d0a6d3a059') in 0.0168245 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ac35d7e5f3530a2e1fbf04883543ccd3 DependenciesID=0d543a53a7dffdfc9bedaeb77da934e3 StaticDependenciesID=202c51921ad5c145d5c87f37362d866e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.680705 seconds.
+  path: Assets/Yash/Materials and Textures/Concrete/Clean_Concrete_GroundSpecular.png
+  importAddress: Guid(a84e704e9e1f737438e3f895b5b45c1a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Yash/Materials and Textures/Concrete/Clean_Concrete_GroundSpecular.png using Guid(a84e704e9e1f737438e3f895b5b45c1a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '143d19be75309186201db5a996b5ff26') in 0.0163475 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7e36cf0acd7fcaee45ea1f50bc3cf3ea DependenciesID=1d8cf2c796c2300a337fdaf2ffefc848 StaticDependenciesID=c913f682123d492e85d7aad4eec60e3b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001332 seconds.
+  path: Assets/Yash/Third Person Controller/Animations/walking.fbx
+  importAddress: Guid(c5be887af9f579d4b9f081ed3357aafc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Yash/Third Person Controller/Animations/walking.fbx using Guid(c5be887af9f579d4b9f081ed3357aafc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Yash/Third Person Controller/Animations/walking.fbx)
+ -> (Import Result ID: 'a004714afae3dfc65fc8d44b4de410a2') in 0.0215267 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=06ea8c80f93fb45178e8a12a1d1413c4 DependenciesID=6b8d86150bd32132988c9dadbe6f39d8 StaticDependenciesID=338f66ede627ee6ad5ae450e3b4f4e52 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 138
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Yash/Materials and Textures/Rocks/Rocks011_1K-JPG_Roughness.jpg
+  importAddress: Guid(b1185b3f3537605419a5fc0566a7b067) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Yash/Materials and Textures/Rocks/Rocks011_1K-JPG_Roughness.jpg using Guid(b1185b3f3537605419a5fc0566a7b067) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '512d6b92924da8f475b6c93237f7a3a2') in 0.0251716 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6da114c7e3ff979d4405cd6ce93934d7 DependenciesID=d2f30d3163f15b13e310b583759d31aa StaticDependenciesID=214309b4b41b402a65848715c2cacc70 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Yash/Materials and Textures/Concrete/Concrete Texture.mat
+  importAddress: Guid(9af800731c3718347988d373621bdf0d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Yash/Materials and Textures/Concrete/Concrete Texture.mat using Guid(9af800731c3718347988d373621bdf0d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c582f0f1ef2b40bea6ef02815b827042') in 0.0175682 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=911c3de2afa86203dbedbd1423b52ba3 DependenciesID=d608ff3ce4a2ba4d09fc266bdef62db8 StaticDependenciesID=db086de8e9b7191b4d37019c1fbd3636 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Yash/Third Person Controller/Player.prefab
+  importAddress: Guid(b001cb61a0b189d4394e77fcb27043d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Yash/Third Person Controller/Player.prefab using Guid(b001cb61a0b189d4394e77fcb27043d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b3f8ab280def3caa452fe0d7d2854e83') in 0.0216098 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6f43b1b6d4b1d879d2bf92b61de05ada DependenciesID=0fa212432edb7db6c78af6e0a48a35bb StaticDependenciesID=abe09ba7874945b64ede5e42c32f9f5f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 142
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Yash/Materials and Textures/Coat of Arms
+  importAddress: Guid(5ca7786785e02e34782bb26df3f1ba67) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Yash/Materials and Textures/Coat of Arms using Guid(5ca7786785e02e34782bb26df3f1ba67) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b25ca4a1053c8fd52864b45cd5069b6a') in 0.0111739 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=72d60c7b08f682ef9c2e316810a683cc DependenciesID=c07ad6c17904a4aec8d67c5557ee7b1a StaticDependenciesID=65099a89d35fb40cdfbda701a2907b1f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Wood/materials/Wall-Wood-Model-11.mat
+  importAddress: Guid(d045384b4238cf64a90f3daefdacdff2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Wood/materials/Wall-Wood-Model-11.mat using Guid(d045384b4238cf64a90f3daefdacdff2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '99422a651939a0d9bda53664025af19f') in 0.0129252 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0d122a6dce863ec146aa2dc04eb7d592 DependenciesID=b8cd1dfeb49cafa738769a25bc2ef455 StaticDependenciesID=a46068c603cdafb734acb7690be46694 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Yash/Materials and Textures/Rocks/Rocks011_1K-JPG_NormalGL.jpg
+  importAddress: Guid(177a07bf2807c694ba9f9145756fd0f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Yash/Materials and Textures/Rocks/Rocks011_1K-JPG_NormalGL.jpg using Guid(177a07bf2807c694ba9f9145756fd0f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ccb764f414c822090c4840d10ab2772a') in 0.0146193 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=83396d6d11bf4ba6805c09a342e01075 DependenciesID=30fe52e84e5fbdbfd978f30a19faf809 StaticDependenciesID=3b783b5e7ae61bde45650cc25c3c281f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Yash/Materials and Textures/seamless rock/rock texture seamless_displacement.png
+  importAddress: Guid(bf72d838bb155fb4292ba20697cb01e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Yash/Materials and Textures/seamless rock/rock texture seamless_displacement.png using Guid(bf72d838bb155fb4292ba20697cb01e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '05855cb90f4a9317d62c74b3c129ac25') in 0.0160751 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cfae5c11049917a200e06132bfe6fc54 DependenciesID=937a0d666dcc6a3c93d1c579fb90db70 StaticDependenciesID=e66f04befde2c1e92e377395bfb2a31c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Yash
+  importAddress: Guid(d5596c4db902c1348b2bae6793fd34fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Yash using Guid(d5596c4db902c1348b2bae6793fd34fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ae87ac194437f231a4f76707612c2095') in 0.0105109 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ad1a300339784a584df23dc85823bc4e DependenciesID=05617518abed4e98770e4dbf2767e1b8 StaticDependenciesID=082f8302ce26387975523fef318e7137 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Yash/Third Person Controller/Animations/waving.fbx
+  importAddress: Guid(e28c70e8cd566a34aacf6af708cc1824) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Yash/Third Person Controller/Animations/waving.fbx using Guid(e28c70e8cd566a34aacf6af708cc1824) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5bdbec715c4b3fec1db4f36642832aa3') in 0.0179677 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6d666a1a2eaf3cbf8462ba30f60f825a DependenciesID=2f0e18ec260de7f8f237f362a2a02e23 StaticDependenciesID=068f266344a8cc264f576ed48c7efcea 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 137
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Yash/Materials and Textures/seamless rock/rock texture seamless_normal.png
+  importAddress: Guid(a770d7ad7cd7bfd48aad352c192699fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Yash/Materials and Textures/seamless rock/rock texture seamless_normal.png using Guid(a770d7ad7cd7bfd48aad352c192699fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '14fcde16b245f645c1cc0f6edba9695e') in 0.0136714 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2b28b75e960b34e3e4f9ad4968b4390a DependenciesID=b33956790deaa8ad80b6350edaffa15d StaticDependenciesID=f8bb514f4e823883bdab3e58fd9c4a75 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Yash/Materials and Textures/Coat of Arms/Coat of Arms.png
+  importAddress: Guid(b713c0f84dc6f8f41af6eb362a397bb6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Yash/Materials and Textures/Coat of Arms/Coat of Arms.png using Guid(b713c0f84dc6f8f41af6eb362a397bb6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f24aea424c29d7b9cb1ed9d9f2ab4363') in 0.0175969 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=581d106152ef46182c1e03a3eefe9396 DependenciesID=0f60560aa8eb715abaad55a1aaaebe60 StaticDependenciesID=5a61c3b9c5d296ef552794721744a87a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Yash/Materials and Textures/SeamlessWood/seemless wood texture.jpg
+  importAddress: Guid(c5a2998541f3e5843a6cc16ccc67d7b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Yash/Materials and Textures/SeamlessWood/seemless wood texture.jpg using Guid(c5a2998541f3e5843a6cc16ccc67d7b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cc1abc167e2e3ff31e494a8d93bffe94') in 0.0160294 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fc5ad94c565adc34ce0ec5f481da4974 DependenciesID=429f20f6cafa52018f25414cc280d381 StaticDependenciesID=0d0e841f555de72f6e4664475006dddc 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Yash/Models and Prefabs/Walls and Floors/Demo Scenes
+  importAddress: Guid(68fb0dc842b017f4595ace1c9bd4cbb6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Yash/Models and Prefabs/Walls and Floors/Demo Scenes using Guid(68fb0dc842b017f4595ace1c9bd4cbb6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5ffb05394a1ce645c9f71d225f83fc2f') in 0.0114461 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a0fb1bf0141390810e1564d5db204620 DependenciesID=b1bb872df277761798d71bcc49803074 StaticDependenciesID=138db6b5d5406cee5b4a5ea62fd2edd6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Yash/Materials and Textures/Rocks/Rocks011_1K-JPG_Color.jpg
+  importAddress: Guid(cde19368e49daef49aef0611aa2d3787) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Yash/Materials and Textures/Rocks/Rocks011_1K-JPG_Color.jpg using Guid(cde19368e49daef49aef0611aa2d3787) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e847579f767f5d760b0296955011a193') in 0.0137276 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5c5abfd2c371088263edb42542303740 DependenciesID=b060315e1dea13bb9b82a9f8cfbbef74 StaticDependenciesID=5fa2a5ef16354f28df7d6a2ea8815469 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Yash/Third Person Controller/Robot Kyle/Textures/Robot_Normal.tga
+  importAddress: Guid(94c473c9137744d7eabd829f1150da8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Yash/Third Person Controller/Robot Kyle/Textures/Robot_Normal.tga using Guid(94c473c9137744d7eabd829f1150da8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'afb584f8c7df7bb83aa0f30a11d3ecbe') in 0.0180873 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4dd225e7f8b9b1e9682e39794a0a3502 DependenciesID=a44dd617c73e4d025cf5e4ce4491b856 StaticDependenciesID=dead103fab6c48030c59738ee8e98a01 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Yash/Third Person Controller
+  importAddress: Guid(88bc8b3f44fa91a4589ddca4e3b6d239) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Yash/Third Person Controller using Guid(88bc8b3f44fa91a4589ddca4e3b6d239) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0078c96268d89cff24e89e7ba11dfade') in 0.0103735 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=15b4544746d12f485a92b7d861cfaf39 DependenciesID=e04508593c071cf9443b476a1aca7ab9 StaticDependenciesID=b08e14d75f0ce5294f58e18321bc4733 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Yash/Third Person Controller/Robot Kyle/Materials/Robot_Color.mat
+  importAddress: Guid(0aa851515cd3747d6b3b3e461199a2ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Yash/Third Person Controller/Robot Kyle/Materials/Robot_Color.mat using Guid(0aa851515cd3747d6b3b3e461199a2ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9c1480183ece6a2c8d566b04d97a3919') in 0.0180247 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1e75701322296238537c3c9e330bff6f DependenciesID=2965002a52020aa58599ac81282a88d0 StaticDependenciesID=364f24a77c5a2dd0021a2b45ecc63a00 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Demo Dungeon Scene/Demo Models/Wood/materials/Wall-Wood-Model-10.mat
+  importAddress: Guid(e7e59c9c966c6ba418317867239d89de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Demo Dungeon Scene/Demo Models/Wood/materials/Wall-Wood-Model-10.mat using Guid(e7e59c9c966c6ba418317867239d89de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '061552406df97afb4ae0d11faea2b921') in 0.0129745 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6d860bd4c2749ef81cdd650550036a72 DependenciesID=885998c1ebefac6971cc9bb74b8c78b7 StaticDependenciesID=7d5eccadbec4e9a9560a2a42f8c77f5e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Yash/Materials and Textures/Brick Texture LITE/Materials/LITE/Brick 2.mat
+  importAddress: Guid(0235b0cc38a956e4fba56ec6f85768a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Yash/Materials and Textures/Brick Texture LITE/Materials/LITE/Brick 2.mat using Guid(0235b0cc38a956e4fba56ec6f85768a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '860329f2a3edbf96a639645d364b9175') in 0.0352193 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8564ecb88c247d737581db60eee331ec DependenciesID=635980385ba1849fad651120bd29d6a7 StaticDependenciesID=09ebda4defeaab576952a161e5d09307 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Yash/Third Person Controller/Animations/turn.fbx
+  importAddress: Guid(fe5a3f78955de764190c2a53523ae0b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Yash/Third Person Controller/Animations/turn.fbx using Guid(fe5a3f78955de764190c2a53523ae0b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b3e3cdb0a7f20284769c606a3fcdc6e0') in 0.0215186 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d5a7f7403d8e6925e15b807f703d4661 DependenciesID=f46164cd49988fe08ac5abd2c6249563 StaticDependenciesID=d0c7ec39216365abce358f245fefc526 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 147
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Yash/Materials and Textures/seamless rock/rock texture seamless.jpg
+  importAddress: Guid(2a14628fbfe4e5a4cbdf58e11a3f7a4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Yash/Materials and Textures/seamless rock/rock texture seamless.jpg using Guid(2a14628fbfe4e5a4cbdf58e11a3f7a4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '564ef1773481d9f7f23fc032fc5844c0') in 0.0147353 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a5b0bd44928433103840390bd55ef512 DependenciesID=180eb5aaf950316c05ccd14196c2289f StaticDependenciesID=99176b88884bd437f2248d9d48895395 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.103170 seconds.
+  path: Assets/Yash/Materials and Textures/Brick Texture LITE/Textures/S1_Black_White
+  importAddress: Guid(9375bf511d6753644a86164abd68fdd8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Yash/Materials and Textures/Brick Texture LITE/Textures/S1_Black_White using Guid(9375bf511d6753644a86164abd68fdd8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c43c4509ea70f3b8b382c87e1b6e4e3f') in 0.0113438 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a235d2f3b05095df0d60b54890448f72 DependenciesID=ee5c754945360bd271af79403108d3af StaticDependenciesID=92661997433285f50599450984707dab 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Yash/Models and Prefabs/Walls and Floors/Demo Scenes/Demo Dungeons.unity
+  importAddress: Guid(7aa008a3a78386642b2e9a54022e0ac2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Yash/Models and Prefabs/Walls and Floors/Demo Scenes/Demo Dungeons.unity using Guid(7aa008a3a78386642b2e9a54022e0ac2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '423c727fbf4d9f7efa1d9a112cbc335c') in 0.0281216 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=afdc9dc45a0ff2ef42dc516e09267152 DependenciesID=cf8fc66f9ea37a3581e698ef9afdcef4 StaticDependenciesID=6c4475409d19330799cdc90cd1eaf472 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Yash/Materials and Textures/Rocks/Rocks011_1K-JPG_Displacement.jpg
+  importAddress: Guid(4311c3e696f9b2a438c57517dc8640a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Yash/Materials and Textures/Rocks/Rocks011_1K-JPG_Displacement.jpg using Guid(4311c3e696f9b2a438c57517dc8640a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'db75ca47e6ed28b45232c801d5d6b678') in 0.0169044 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8218f60d8e3a691922bc947a27943cba DependenciesID=93a97c9b2beeef062dcfbcaeb45d0897 StaticDependenciesID=cf17abb7b6c1ea932d831d4e9d237cfc 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Yash/Third Person Controller/Animations/running.fbx
+  importAddress: Guid(77d9df93482067942b5b9eb0ecc4d42e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Yash/Third Person Controller/Animations/running.fbx using Guid(77d9df93482067942b5b9eb0ecc4d42e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6c81b717e7ce90a643854d502485a2d7') in 0.0159438 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9dc628d63000781add16dae44006b2dd DependenciesID=04284f52e65f0bda8ac750a463a64156 StaticDependenciesID=5d9df0784fa1ad0bed4d8d71727a90e8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 138
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Yash/Materials and Textures/seamless rock/rock texture seamless_specular.png
+  importAddress: Guid(c7fa6fd973e0e1a4ab4d8f7bed3e75d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Yash/Materials and Textures/seamless rock/rock texture seamless_specular.png using Guid(c7fa6fd973e0e1a4ab4d8f7bed3e75d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1530f309696a1c94763274783df9778a') in 0.0162175 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=52e3df3dc799d70b371921d4b8a0a26a DependenciesID=f666c6cd10547d99c3424b68f5eaf3b4 StaticDependenciesID=f1ed948050598e6129e366c821d60858 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Yash/Materials and Textures/Rock Wall/Rocks003_1K-JPG.usdc
+  importAddress: Guid(7d4110c2d1aaa6940b9c1e09a0a8a7c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Yash/Materials and Textures/Rock Wall/Rocks003_1K-JPG.usdc using Guid(7d4110c2d1aaa6940b9c1e09a0a8a7c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '628c432ea155f2b77fd247902a76f943') in 0.0111502 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ad05d7f1ec68455c73e54be4abda5b33 DependenciesID=b9a648d78328f3dce1a360406bb8be83 StaticDependenciesID=685d65ceb5d9b15a7f1b0cce09a1c466 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Yash/Materials and Textures/Brick Texture LITE/Textures/S1_Black_White/Plane 3D_lambert1_MetallicSmoothness.png
+  importAddress: Guid(d5d9ede85998e6d42943a86fc3a28617) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Yash/Materials and Textures/Brick Texture LITE/Textures/S1_Black_White/Plane 3D_lambert1_MetallicSmoothness.png using Guid(d5d9ede85998e6d42943a86fc3a28617) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd166fc4b03cd91bc241f8668906790ea') in 0.0148895 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cb529e55db4614ffb3e84cbf1c9cb8e2 DependenciesID=5103f71b3ef86bb73daf7811366097b1 StaticDependenciesID=d257bfde24cc532e7e75e740702a4a1d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
